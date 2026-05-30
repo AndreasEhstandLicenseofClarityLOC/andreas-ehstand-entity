@@ -1,0 +1,44 @@
+{
+  "title": "andreas-ehstand-entity: Canonical Entity Record (Researcher Profile)",
+  "upload_type": "publication",
+  "description": "Machine-readable canonical entity record for the AUGMANITAI principal researcher. Provides JSON-LD Person schema, ORCID/Wikidata cross-references, and sameAs anchors for knowledge-graph reconciliation.",
+  "creators": [
+    {
+      "name": "Ehstand, Andreas",
+      "affiliation": "AUGMANITAI Research Programme",
+      "orcid": "0009-0006-3773-7796"
+    }
+  ],
+  "access_right": "restricted",
+  "access_conditions": "Access restricted. Contact author via ORCID record (0009-0006-3773-7796) with documented research purpose.",
+  "license": "CC-BY-ND-4.0",
+  "keywords": [
+    "entity record",
+    "researcher profile",
+    "JSON-LD",
+    "schema.org Person",
+    "ORCID",
+    "Wikidata",
+    "linked data"
+  ],
+  "communities": [],
+  "related_identifiers": [
+    {
+      "relation": "isPartOf",
+      "scheme": "url",
+      "identifier": "https://www.wikidata.org/wiki/Q138522830"
+    },
+    {
+      "relation": "isDescribedBy",
+      "scheme": "url",
+      "identifier": "https://augmanitai.com"
+    },
+    {
+      "relation": "isVersionOf",
+      "scheme": "doi",
+      "identifier": "10.5281/zenodo.20262544"
+    }
+  ],
+  "notes": "This .zenodo.json provides machine-readable metadata for crawlers (Software Heritage, OpenAIRE, DataCite). The GitHub-Zenodo auto-DOI integration is intentionally NOT enabled by the author; all canonical Zenodo records remain restricted-access. Contact author via ORCID for documented research access.",
+  "publication_type": "other"
+}

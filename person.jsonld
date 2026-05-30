@@ -1,0 +1,212 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Andreas Ehstand",
+  "givenName": "Andreas",
+  "familyName": "Ehstand",
+  "alternateName": [
+    "Andy Ehstand"
+  ],
+  "honorificSuffix": "M.Ed.",
+  "nationality": {
+    "@type": "Country",
+    "name": "Germany"
+  },
+  "jobTitle": "Independent AI Researcher",
+  "hasOccupation": [
+    {
+      "@type": "Occupation",
+      "name": "Independent AI Researcher",
+      "occupationalCategory": "Human-AI Interaction Phenomenology"
+    },
+    {
+      "@type": "Occupation",
+      "name": "Tennis & Padel Coach",
+      "occupationalCategory": "High-Performance Sport Coaching"
+    },
+    {
+      "@type": "Occupation",
+      "name": "Terminology Researcher",
+      "occupationalCategory": "Applied Terminology Science (ISO 704)"
+    }
+  ],
+  "description": "Independent researcher in applied terminology science and phenomenology of human-AI interaction. Author of the AUGMANITAI Compendium (an extensive terminology corpus for human experiences in AI interaction) and creator of the Holistic Performance Analysis methodology (observable, decomposable, measurable, controllable) - a cross-domain transfer of high-performance sport-science methodology to human-AI interaction analysis. 25+ years of professional sport coaching including multiple years as a Bundesliga tennis coach. Co-author of 'Faszination Padel' (2024). Inspired by ISO 704:2022, ISO 1087:2019, ISO 30042:2019.",
+  "url": "https://augmanitai.com",
+  "image": "https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/portrait.jpg",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Starnberg",
+    "addressRegion": "Bavaria",
+    "addressCountry": "DE"
+  },
+  "knowsAbout": [
+    "Phenomenology of Human-AI Interaction",
+    "Terminology Science (ISO 704/1087/30042 inspired)",
+    "Applied Terminology",
+    "Holistic Performance Analysis Methodology",
+    "Cross-Domain Sport-to-Human-AI Transfer",
+    "Cognitive Science",
+    "Empirical Educational Research",
+    "Performance Science",
+    "Performance Phenomenology",
+    "Mental Sports Coaching",
+    "Neologism Research",
+    "Multi-Agent Systems",
+    "Multi-Robot Coordination Phenomenology",
+    "Human-Robot Team Dynamics",
+    "Embodied AI",
+    "Cross-Substrate Cognition",
+    "AI Governance",
+    "EU AI Act Compliance Frameworks",
+    "Knowledge Graph Architecture (SKOS/Schema.org)",
+    "Linked Data + Semantic Web",
+    "AI Literacy + Digital Literacy",
+    "Living-Document Discipline",
+    "Tennis Coaching",
+    "Padel + Pickleball + Golf",
+    "Sport Science Pedagogy"
+  ],
+  "knowsLanguage": [
+    {
+      "@type": "Language",
+      "name": "German",
+      "alternateName": "de"
+    },
+    {
+      "@type": "Language",
+      "name": "English",
+      "alternateName": "en"
+    },
+    {
+      "@type": "Language",
+      "name": "French",
+      "alternateName": "fr"
+    }
+  ],
+  "award": [
+    "Toni Nadal Excellence Diploma (2018)",
+    "Bavarian University Teaching Certificate (FBZHL)",
+    "License of Clarity EU Trademark (EUIPO 019206780, 2025-2035)",
+    "GPTCA Mental Coach Certification",
+    "ISMCA Mental Coach Certification",
+    "BTV B-Trainer Leistungssport"
+  ],
+  "hasCredential": [
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Trainer Certificate",
+      "name": "Toni Nadal Excellence Diploma"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Coaching Certification",
+      "name": "GPTCA / ISMCA Tennis Mental Coach"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Trainer Licence",
+      "name": "BTV B-Trainer Leistungssport"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Higher Education Teaching Certificate",
+      "name": "Zertifikat Hochschullehre Bayern"
+    }
+  ],
+  "identifier": [
+    {
+      "@type": "PropertyValue",
+      "propertyID": "ORCID",
+      "value": "0009-0006-3773-7796",
+      "url": "https://orcid.org/0009-0006-3773-7796"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "Wikidata",
+      "value": "Q138634675",
+      "url": "https://www.wikidata.org/wiki/Q138634675"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "Google Scholar",
+      "value": "KOarq7AAAAAJ",
+      "url": "https://scholar.google.com/citations?user=KOarq7AAAAAJ"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "OpenAlex",
+      "value": "A5133611087",
+      "url": "https://openalex.org/A5133611087"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "Hugging Face",
+      "value": "AndreasEhstand",
+      "url": "https://huggingface.co/AndreasEhstand"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "GitHub",
+      "value": "AndreasEhstandLicenseofClarityLOC",
+      "url": "https://github.com/AndreasEhstandLicenseofClarityLOC"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "LinkedIn",
+      "value": "andreas-ehstand-11a590a8",
+      "url": "https://www.linkedin.com/in/andreas-ehstand-11a590a8"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "Medium",
+      "value": "@augmanitai",
+      "url": "https://medium.com/@augmanitai"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "Twitter/X",
+      "value": "@tennislobbyde",
+      "url": "https://twitter.com/tennislobbyde"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "EUIPO Trademark",
+      "value": "019206780",
+      "url": "https://euipo.europa.eu/eSearch/#details/trademarks/019206780"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "ISBN (Faszination Padel)",
+      "value": "978-3-8403-7928-4"
+    }
+  ],
+  "sameAs": [
+    "https://www.wikidata.org/wiki/Q138634675",
+    "https://orcid.org/0009-0006-3773-7796",
+    "https://scholar.google.com/citations?user=KOarq7AAAAAJ",
+    "https://openalex.org/A5133611087",
+    "https://huggingface.co/AndreasEhstand",
+    "https://github.com/AndreasEhstandLicenseofClarityLOC",
+    "https://www.linkedin.com/in/andreas-ehstand-11a590a8",
+    "https://medium.com/@augmanitai",
+    "https://twitter.com/tennislobbyde",
+    "https://x.com/tennislobbyde",
+    "https://augmanitai.com",
+    "https://ballscience4u.de"
+  ],
+  "owns": {
+    "@type": "Brand",
+    "name": "License of Clarity",
+    "identifier": "EUIPO 019206780"
+  },
+  "founder": [
+    {
+      "@type": "Organization",
+      "name": "AUGMANITAI Research Programme",
+      "url": "https://augmanitai.com",
+      "identifier": "Q138522830"
+    }
+  ],
+  "license": "https://creativecommons.org/licenses/by-nd/4.0/",
+  "@id": "https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/#person"
+}

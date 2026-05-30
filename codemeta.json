@@ -1,0 +1,65 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "license": "https://creativecommons.org/licenses/by-nd/4.0/",
+  "author": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0006-3773-7796",
+      "givenName": "Andreas",
+      "familyName": "Ehstand",
+      "affiliation": "AUGMANITAI Research Programme",
+      "jobTitle": "AI Researcher",
+      "email": "ehstand.schule@gmail.com",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q138634675",
+        "https://orcid.org/0009-0006-3773-7796",
+        "https://openalex.org/A5133611087",
+        "https://scholar.google.com/citations?user=KOarq7AAAAAJ",
+        "https://huggingface.co/AndreasEhstand",
+        "https://github.com/AndreasEhstandLicenseofClarityLOC",
+        "https://www.linkedin.com/in/andreas-ehstand-11a590a8"
+      ]
+    }
+  ],
+  "programmingLanguage": [
+    "HTML",
+    "JSON-LD"
+  ],
+  "runtimePlatform": [
+    "Web",
+    "Linked Data Ecosystems"
+  ],
+  "applicationCategory": "Research",
+  "developmentStatus": "active",
+  "isAccessibleForFree": true,
+  "relatedLink": "https://augmanitai.com",
+  "dateCreated": "2024-01-01",
+  "dateModified": "2026-05-15",
+  "ai_disclosure": "Content developed with AI assistance. Reviewed and approved by the author.",
+  "audience": "Adult users (18+) in academic or professional contexts",
+  "name": "Andreas Ehstand - Machine-Readable Entity Profile",
+  "description": "Crawler-friendly entity hub for Andreas Ehstand (AI Researcher, Human-AI Interaction, Starnberg, Bavaria, DE). Mirrors immutable primary records (ORCID, Wikidata, Zenodo, GitHub Pages, Google Scholar, Hugging Face) in a single structured location for search engines, AI crawlers, and Knowledge-Graph indexers.",
+  "version": "1.0",
+  "applicationSubCategory": "Person Entity Hub / Authority Record",
+  "keywords": [
+    "Andreas Ehstand",
+    "entity profile",
+    "ORCID",
+    "Wikidata",
+    "Q138634675",
+    "person authority record",
+    "knowledge graph",
+    "AUGMANITAI",
+    "researcher profile"
+  ],
+  "codeRepository": "https://github.com/AndreasEhstandLicenseofClarityLOC/andreas-ehstand-entity",
+  "identifier": "https://doi.org/10.5281/zenodo.20118267",
+  "referencePublication": {
+    "@type": "ScholarlyArticle",
+    "name": "AUGMANITAI Research Programme: terminology and phenomenology of human-AI interaction",
+    "author": "Andreas Ehstand",
+    "datePublished": "2024",
+    "identifier": "https://doi.org/10.5281/zenodo.20118267"
+  }
+}
