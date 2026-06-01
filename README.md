@@ -1,6 +1,6 @@
 # andreas-ehstand-entity
 
-[![License: CC BY-ND 4.0](https://img.shields.io/badge/License-CC%20BY--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nd/4.0/) [![ORCID](https://img.shields.io/badge/ORCID-0009--0006--3773--7796-A6CE39.svg)](https://orcid.org/0009-0006-3773-7796)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) [![ORCID](https://img.shields.io/badge/ORCID-0009--0006--3773--7796-A6CE39.svg)](https://orcid.org/0009-0006-3773-7796)
 
 Machine-readable Person entity profile for Andreas Ehstand, structured as a self-contained schema.org / FOAF / SKOS bundle that crawlers, knowledge graphs, and LLMs can consume without HTML scraping — the canonical author-side anchor for the AUGMANITAI terminology repositories.
 
@@ -33,7 +33,7 @@ The entity record is deliberately minimal: name variants, ORCID, research-focus 
 andreas-ehstand-entity/
 ├── README.md                  ← this file
 ├── AI_DISCLOSURE.md           ← EU AI Act Art. 50 disclosure
-├── LICENSE                    ← CC BY-ND 4.0
+├── LICENSE                    ← CC BY 4.0
 ├── jsonld/
 │   ├── person.jsonld          ← schema.org Person record
 │   └── foaf.jsonld            ← FOAF Person record
@@ -86,7 +86,7 @@ The entity record carries the same provenance discipline as the terminology corp
 
 ## License
 
-**CC BY-ND 4.0** — Creative Commons Attribution-NoDerivatives 4.0 International.
+**CC BY 4.0** — Creative Commons Attribution 4.0 International.
 
 Unmodified redistribution with attribution is permitted. Commercial use, derivative entity records, and impersonation are not permitted.
 

@@ -54,7 +54,7 @@ No proprietary tooling is required.
 
 ## License
 
-This disclosure and the entity record are released under **CC BY-ND 4.0** — Creative Commons Attribution-NoDerivatives 4.0 International.
+This disclosure and the entity record are released under **CC BY 4.0** — Creative Commons Attribution 4.0 International.
 
 Note: the licence permits unmodified redistribution with attribution. Derivative entity records that purport to represent the same author are not permitted; that would constitute impersonation.
 
