@@ -36,7 +36,7 @@ Human curation is primary. The entity record is the author's identity claim; it 
 Every published file in this repository is anchored by:
 
 - **Multi-Hash** — SHA-256, SHA-512, SHA3-256, BLAKE3 stored in `manifests/MULTI_HASH.json`.
-- **Bitcoin OpenTimestamps** — `.ots` proofs in `manifests/` anchored across four independent calendar servers.
+- **OpenTimestamps** — `.ots` proofs in `manifests/` anchored across four independent calendar servers.
 - **DOI** — registered via Zenodo, DataCite-immutable publication date.
 
 The combination forms a defensive-publication chain for the entity record itself, in the same manner as the terminology corpora that the entity authors.
@@ -46,7 +46,7 @@ The combination forms a defensive-publication chain for the entity record itself
 The repository is self-contained. An independent party can:
 
 1. Verify file integrity against `MANIFEST.sha256`.
-2. Verify timestamp against the Bitcoin OpenTimestamps proof.
+2. Verify timestamp against the OpenTimestamps proof.
 3. Resolve the ORCID and DOI cross-references against the live registries.
 4. Re-derive the JSON-LD and Turtle serialisations from the canonical `api/entity.json`.
 

@@ -47,7 +47,7 @@ andreas-ehstand-entity/
 ├── manifests/
 │   ├── MANIFEST.sha256        ← SHA-256 per file
 │   ├── MULTI_HASH.json        ← SHA-256 + SHA-512 + SHA3-256 + BLAKE3
-│   └── *.ots                  ← Bitcoin OpenTimestamps proof
+│   └── *.ots                  ← OpenTimestamps proof
 └── CITATION.cff               ← citation metadata
 ```
 
@@ -61,7 +61,7 @@ andreas-ehstand-entity/
 
 **For citation systems.** `CITATION.cff` is the canonical citation metadata file (per the Citation File Format).
 
-**For reproducibility.** Verify file integrity against `manifests/MANIFEST.sha256`. The Bitcoin OpenTimestamps proof in `manifests/` independently anchors the publication date of the entity record.
+**For reproducibility.** Verify file integrity against `manifests/MANIFEST.sha256`. The OpenTimestamps proof in `manifests/` independently anchors the publication date of the entity record.
 
 ## Methodology
 
@@ -76,11 +76,11 @@ The entity is designed to interoperate, not to replicate. ORCID remains the prim
 
 ## Provenance
 
-Defensive Publication via DOI + Multi-Hash + Bitcoin OpenTimestamps:
+Defensive Publication via DOI + Multi-Hash + OpenTimestamps:
 
 - **DOI** — registered via Zenodo (DataCite-anchored, immutable publication date for this entity record).
 - **Multi-Hash** — SHA-256, SHA-512, SHA3-256, BLAKE3 of every file.
-- **Bitcoin OpenTimestamps** — file hashes are anchored in the Bitcoin blockchain via four independent calendar servers (`a.pool.opentimestamps.org`, `b.pool.opentimestamps.org`, `a.pool.eternitywall.com`, `ots.btc.catallaxy.com`).
+- **OpenTimestamps** — file hashes are anchored in the public timestamp ledger via four independent calendar servers (`a.pool.opentimestamps.org`, `b.pool.opentimestamps.org`, `a.pool.eternitywall.com`, `ots.btc.catallaxy.com`).
 
 The entity record carries the same provenance discipline as the terminology corpora it authors. The author identity, the authored work, and the time-anchor are all part of one verifiable chain.
 
