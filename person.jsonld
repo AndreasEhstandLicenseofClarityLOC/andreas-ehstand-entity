@@ -11,11 +11,11 @@
     "@type": "Country",
     "name": "Germany"
   },
-  "jobTitle": "Independent AI Researcher",
+  "jobTitle": "Independent Researcher",
   "hasOccupation": [
     {
       "@type": "Occupation",
-      "name": "Independent AI Researcher",
+      "name": "Independent Researcher",
       "occupationalCategory": "Human-AI Interaction Phenomenology"
     },
     {
@@ -72,14 +72,6 @@
       "alternateName": "fr"
     }
   ],
-  "award": [
-    "Toni Nadal Excellence Diploma (2018)",
-    "Bavarian University Teaching Certificate (FBZHL)",
-    "License of Clarity EU Trademark (EUIPO 019206780, 2025-2035)",
-    "GPTCA Mental Coach Certification",
-    "ISMCA Mental Coach Certification",
-    "BTV B-Trainer Leistungssport"
-  ],
   "hasCredential": [
     {
       "@type": "EducationalOccupationalCredential",
@@ -114,18 +106,6 @@
       "propertyID": "Wikidata",
       "value": "Q138634675",
       "url": "https://www.wikidata.org/wiki/Q138634675"
-    },
-    {
-      "@type": "PropertyValue",
-      "propertyID": "Google Scholar",
-      "value": "KOarq7AAAAAJ",
-      "url": "https://scholar.google.com/citations?user=KOarq7AAAAAJ"
-    },
-    {
-      "@type": "PropertyValue",
-      "propertyID": "OpenAlex",
-      "value": "A5133611087",
-      "url": "https://openalex.org/A5133611087"
     },
     {
       "@type": "PropertyValue",
@@ -172,8 +152,6 @@
   "sameAs": [
     "https://www.wikidata.org/wiki/Q138634675",
     "https://orcid.org/0009-0006-3773-7796",
-    "https://scholar.google.com/citations?user=KOarq7AAAAAJ",
-    "https://openalex.org/A5133611087",
     "https://huggingface.co/AndreasEhstand",
     "https://github.com/AndreasEhstandLicenseofClarityLOC",
     "https://www.linkedin.com/in/andreas-ehstand-11a590a8",

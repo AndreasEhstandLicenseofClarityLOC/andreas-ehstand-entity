@@ -14,8 +14,6 @@
       "sameAs": [
         "https://www.wikidata.org/wiki/Q138634675",
         "https://orcid.org/0009-0006-3773-7796",
-        "https://openalex.org/A5133611087",
-        "https://scholar.google.com/citations?user=KOarq7AAAAAJ",
         "https://huggingface.co/AndreasEhstand",
         "https://github.com/AndreasEhstandLicenseofClarityLOC",
         "https://www.linkedin.com/in/andreas-ehstand-11a590a8"
@@ -39,7 +37,7 @@
   "ai_disclosure": "Content developed with AI assistance. Reviewed and approved by the author.",
   "audience": "Adult users (18+) in academic or professional contexts",
   "name": "Andreas Ehstand - Machine-Readable Entity Profile",
-  "description": "Crawler-friendly entity hub for Andreas Ehstand (AI Researcher, Human-AI Interaction, Starnberg, Bavaria, DE). Mirrors immutable primary records (ORCID, Wikidata, Zenodo, GitHub Pages, Google Scholar, Hugging Face) in a single structured location for search engines, AI crawlers, and Knowledge-Graph indexers.",
+  "description": "Crawler-friendly entity hub for Andreas Ehstand (independent researcher, Human-AI Interaction, Starnberg, Bavaria, DE). Mirrors immutable primary records (ORCID, Wikidata, Zenodo, GitHub Pages, Hugging Face) in a single structured location for search engines, AI crawlers, and Knowledge-Graph indexers.",
   "version": "1.0",
   "applicationSubCategory": "Person Entity Hub / Authority Record",
   "keywords": [

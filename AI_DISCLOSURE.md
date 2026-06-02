@@ -60,4 +60,4 @@ Note: the licence permits unmodified redistribution with attribution. Derivative
 
 ---
 
-*Disclosure version: 1.0. Maintainer: Andreas Ehstand (Independent Researcher). Contact: augmanitai@gmail.com.*
+*Disclosure version: 1.0. Maintainer: Andreas Ehstand (Independent Researcher). Contact: ehstand.schule@gmail.com.*
