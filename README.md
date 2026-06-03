@@ -88,7 +88,7 @@ The entity record carries the same provenance discipline as the terminology corp
 
 **CC BY 4.0** — Creative Commons Attribution 4.0 International.
 
-Unmodified redistribution with attribution is permitted. Commercial use, derivative entity records, and impersonation are not permitted.
+You may share and adapt this record with attribution (CC BY 4.0). Creating derivative entity records that impersonate the author remains prohibited as impersonation, independent of the license.
 
 ## EU AI Act Art. 50 Disclosure
 
