@@ -87,7 +87,7 @@
       "@type": "Article",
       "@id": "https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/holistic-performance.html",
       "name": "Holistic Performance Analysis — a four-lens framework (observable, decomposable, measurable, controllable) for the human side of human–AI collaboration",
-      "url": "https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/holistic-performance.html",
+      "identifier": {"@type": "PropertyValue", "propertyID": "doi", "value": "10.5281/zenodo.20613914"}, "url": "https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/holistic-performance.html",
       "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
       "inLanguage": "en"
     }
