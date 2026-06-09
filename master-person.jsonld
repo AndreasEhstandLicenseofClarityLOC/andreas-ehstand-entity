@@ -48,7 +48,7 @@
     "https://augmanitai.com"
   ],
   "jobTitle": "Independent Researcher",
-  "description": "Andreas Ehstand is an independent researcher and the originator and sole author of the AUGMANITAI corpus, the first systematic descriptive-terminology framework for human-AI interaction phenomena: 204 operationally-defined terms written in an ISO 704 / ISO 1087 descriptive-terminology style and organized as a periodic-table-style taxonomy across roughly ten domains, openly published under CC BY 4.0 and archived on Zenodo. The corpus is a reference vocabulary that names and operationally defines interaction phenomena, and it cross-walks to established constructs it relates to, including flow (Csikszentmihalyi), tacit knowledge (Polanyi), technology acceptance (UTAUT / Davis), cognitive load (NASA-TLX, Sweller), and experience sampling. Background: over a decade of high-performance sport coaching in tennis and padel; alumnus of the University of Bayreuth and TU Dortmund; holder of a Bavarian university-teaching certificate (FBZHL) and of the EU trademark License of Clarity (EUIPO 019206780). ORCID 0009-0006-3773-7796; Wikidata Q138634675.",
+  "description": "Andreas Ehstand is an independent researcher and the originator and sole author of the AUGMANITAI corpus, the first systematic descriptive-terminology framework for human-AI interaction phenomena: 204 operationally-defined terms written in an ISO 704 / ISO 1087 descriptive-terminology style and organized as a periodic-table-style taxonomy across roughly ten domains, openly published under CC BY 4.0 and archived on Zenodo. The corpus is a reference vocabulary that names and operationally defines interaction phenomena, and it cross-walks to established constructs it relates to, including flow (Csikszentmihalyi), tacit knowledge (Polanyi), technology acceptance (UTAUT / Davis), cognitive load (NASA-TLX, Sweller), and experience sampling. The methodology draws on phenomenological traditions (Husserl), social systems theory (Luhmann), and philosophy of language (Wittgenstein) to ground human-AI interaction research in a rigorous conceptual framework. Background: over a decade of high-performance sport coaching in tennis and padel; alumnus of the University of Bayreuth and TU Dortmund; First State Examination (Bayerisches Staatsexamen, 2009); holder of a Bavarian university-teaching certificate (FBZHL) and of the EU trademark License of Clarity (EUIPO 019206780). ORCID 0009-0006-3773-7796; Wikidata Q138634675.",
   "knowsAbout": [
     "AUGMANITAI corpus (originator and sole author)",
     "Descriptive terminology for human-AI interaction phenomena",
@@ -63,6 +63,9 @@
     "Tacit knowledge (Polanyi) as a related construct",
     "Technology acceptance (UTAUT / Davis) as a related construct",
     "Cognitive load (NASA-TLX, Sweller) as a related construct",
+    "Phenomenology of experience (Husserl) as a foundational influence",
+    "Social systems theory and Zettelkasten methodology (Luhmann) as a foundational influence",
+    "Philosophy of language and meaning-as-use (Wittgenstein) as a foundational influence",
     "Experience sampling methodology",
     "High-performance sport coaching (tennis and padel)"
   ],
@@ -80,10 +83,20 @@
       "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/"
     }
   ],
-  "alumniOf": {
-    "@type": "EducationalOrganization",
-    "name": "Technische Universität Dortmund (IFS, 2012-2016)"
-  },
+  "alumniOf": [
+    {
+      "@type": "EducationalOrganization",
+      "name": "Universität Bayreuth",
+      "url": "https://www.uni-bayreuth.de/",
+      "address": { "@type": "PostalAddress", "addressCountry": "DE" }
+    },
+    {
+      "@type": "EducationalOrganization",
+      "name": "Technische Universität Dortmund",
+      "url": "https://www.tu-dortmund.de/",
+      "address": { "@type": "PostalAddress", "addressCountry": "DE" }
+    }
+  ],
   "memberOf": [
     {
       "@type": "Organization",
@@ -112,6 +125,16 @@
   ],
   "publishingPrinciples": "All research outputs follow ISO 704 descriptive terminology conventions. Outputs are archived with Zenodo DOI registration and cryptographic timestamping for provenance. Documentation layer (titles, descriptions, keywords) is treated as a living layer and may be refined post-publication for terminological consistency; substantive content (files) is fixed at publication time.",
   "hasCredential": [
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "Erstes Staatsexamen (First State Examination, Bayern 2009)",
+      "credentialCategory": "State Examination",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Freistaat Bayern",
+        "address": { "@type": "PostalAddress", "addressCountry": "DE" }
+      }
+    },
     {
       "@type": "EducationalOccupationalCredential",
       "name": "Bavarian University Teaching Certificate (FBZHL)",
