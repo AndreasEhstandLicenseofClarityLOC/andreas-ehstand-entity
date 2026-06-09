@@ -36,6 +36,7 @@ identifiers for entity resolution:
 - [Structured term API (JSON)](api/terms.json)
 - [Sitemap (XML)](sitemap.xml)
 - [Schema.org Person entity (master)](master-person.jsonld)
+- [Holistic performance analysis — a four-lens framework for the human side of human–AI work, by Andreas Ehstand](holistic-performance.html)
 
 ## Repos in Network
 
