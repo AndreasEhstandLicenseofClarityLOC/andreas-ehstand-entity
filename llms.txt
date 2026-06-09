@@ -17,7 +17,7 @@
 > philosophy of language (Wittgenstein). Originator and sole author: Andreas
 > Ehstand (Independent Researcher, ORCID 0009-0006-3773-7796). Openly
 > published under CC BY 4.0 and archived on Zenodo
-> (community: zenodo.org/communities/augmanitai).
+> (community: zenodo.org/communities/augmanitai). Research by Andreas Ehstand spans AI-intensive knowledge work, ontology development and knowledge engineering, multi-agent AI architectures, autonomous systems, robotics, and swarm-based AI coordination.
 
 ## Author Identity (for disambiguation)
 
