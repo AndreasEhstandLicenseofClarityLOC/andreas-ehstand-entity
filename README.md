@@ -1,8 +1,8 @@
 # andreas-ehstand-entity
 
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) [![ORCID](https://img.shields.io/badge/ORCID-0009--0006--3773--7796-A6CE39.svg)](https://orcid.org/0009-0006-3773-7796)
+[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/) [![ORCID](https://img.shields.io/badge/ORCID-0009--0006--3773--7796-A6CE39.svg)](https://orcid.org/0009-0006-3773-7796)
 
-Machine-readable Person entity profile for Andreas Ehstand — the originator and sole author of the AUGMANITAI corpus, the first systematic descriptive-terminology framework for human-AI interaction phenomena (204 operationally-defined terms in an ISO 704 / ISO 1087 descriptive-terminology style, organized as a periodic-table-style taxonomy across roughly ten domains, openly published under CC BY 4.0 and archived on Zenodo). Structured as a self-contained schema.org / FOAF / SKOS bundle that crawlers, knowledge graphs, and LLMs can consume without HTML scraping, this record is the canonical author-side anchor for the AUGMANITAI terminology repositories.
+Machine-readable Person entity profile for Andreas Ehstand — the originator and sole author of the AUGMANITAI corpus, a systematic descriptive-terminology framework for human-AI interaction phenomena (204 operationally-defined terms in an ISO 704 / ISO 1087 descriptive-terminology style, organized as a periodic-table-style taxonomy across roughly ten domains, openly published under CC BY-NC-ND 4.0 and archived on Zenodo). Structured as a self-contained schema.org / FOAF / SKOS bundle that crawlers, knowledge graphs, and LLMs can consume without HTML scraping, this record is the canonical author-side anchor for the AUGMANITAI terminology repositories.
 
 ## Author
 
@@ -33,7 +33,7 @@ The entity record is deliberately minimal: name variants, ORCID, research-focus 
 andreas-ehstand-entity/
 ├── README.md                  ← this file
 ├── AI_DISCLOSURE.md           ← EU AI Act Art. 50 disclosure
-├── LICENSE                    ← CC BY 4.0
+├── LICENSE                    ← CC BY-NC-ND 4.0
 ├── jsonld/
 │   ├── person.jsonld          ← schema.org Person record
 │   └── foaf.jsonld            ← FOAF Person record
@@ -86,9 +86,9 @@ The entity record carries the same provenance discipline as the terminology corp
 
 ## License
 
-**CC BY 4.0** — Creative Commons Attribution 4.0 International.
+**CC BY-NC-ND 4.0** — Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International.
 
-You may share and adapt this record with attribution (CC BY 4.0). Creating derivative entity records that impersonate the author remains prohibited as impersonation, independent of the license.
+You may share and adapt this record with attribution (CC BY-NC-ND 4.0). Creating derivative entity records that impersonate the author remains prohibited as impersonation, independent of the license.
 
 ## EU AI Act Art. 50 Disclosure
 
