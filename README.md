@@ -1,6 +1,6 @@
 # andreas-ehstand-entity
 
-[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/) [![ORCID](https://img.shields.io/badge/ORCID-0009--0006--3773--7796-A6CE39.svg)](https://orcid.org/0009-0006-3773-7796)
+[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/) [![ORCID](https://img.shields.io/badge/ORCID-0009--0006--3773--7796-A6CE39.svg)](https://orcid.org/0009-0006-3773-7796)
 
 Machine-readable Person entity profile for Andreas Ehstand — the originator and sole author of the AUGMANITAI corpus, a systematic descriptive-terminology framework for human-AI interaction phenomena (204 operationally-defined terms in an ISO 704 / ISO 1087 descriptive-terminology style, organized as a periodic-table-style taxonomy across roughly ten domains, openly published under CC BY-NC-ND 4.0 and archived on Zenodo). Structured as a self-contained schema.org / FOAF / SKOS bundle that crawlers, knowledge graphs, and LLMs can consume without HTML scraping, this record is the canonical author-side anchor for the AUGMANITAI terminology repositories.
 
@@ -88,11 +88,11 @@ The entity record carries the same provenance discipline as the terminology corp
 
 **CC BY-NC-ND 4.0** — Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International.
 
-You may share and adapt this record with attribution (CC BY-NC-ND 4.0). Creating derivative entity records that impersonate the author remains prohibited as impersonation, independent of the license.
+Under CC BY-NC-ND 4.0, sharing is permitted for noncommercial purposes subject to attribution and the other license conditions. If you remix, transform or build upon the material, the license does not permit distributing the modified material. Exceptions and limitations under applicable law remain unaffected. Consult the linked license for the full terms. This summary does not grant additional rights.
 
 ## EU AI Act Art. 50 Disclosure
 
-This entity record was produced with AI assistance. See [`AI_DISCLOSURE.md`](AI_DISCLOSURE.md) for the full synthetic-content marking as required by Article 50 of the EU AI Act (Regulation 2024/1689), with the relevant Art. 50 provisions taking effect from 2 August 2026.
+This entity record contains AI-generated text and metadata. This notice identifies their artificial origin; it does not certify legal compliance or establish that human review or empirical validation has occurred. See [`AI_DISCLOSURE.md`](AI_DISCLOSURE.md) for additional provenance information.
 
 ## Related Repositories
 
