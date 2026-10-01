@@ -1,63 +1,33 @@
 # AI Disclosure — andreas-ehstand-entity
 
-**Synthetic-content marking pursuant to EU AI Act Art. 50 (Regulation 2024/1689).**
+**This publication contains AI-generated text and metadata.**
 
-## Tool Identification
+Large language models have been used to draft and revise descriptions and structured author information. This disclosure itself was revised using AI on 1 October 2026.
 
-This entity record was produced with substantial assistance from large language models:
+## Scope of this disclosure
 
-- **large language models** — used for schema.org and FOAF record drafting, cross-reference structuring, and citation-metadata first-pass.
-- **large language models** — used for routine reformatting, JSON-LD validation, Turtle serialisation, and bulk consistency passes between formats.
+No quantified split between human and AI contributions is asserted. The earlier percentage estimates and blanket statements about manual verification are not retained because this revision does not establish a documented basis for them.
 
-No other AI systems were used as primary generation tools.
+AI assistance, publication under an author’s account and editing do not by themselves establish empirical validation, independent review or a human check of every item. This notice does not claim that the conditions for any human-review exception under Article 50 have been met.
 
-## Authorship Split
+## Sources and checks
 
-Approximate contribution distribution across the entity record:
+Author identifiers should be checked against their original registries. Qualifications, affiliations, dates and claims of priority require their own supporting sources. Repository metadata is an author-side description, not independent endorsement.
 
-- **~30% AI draft** — initial schema.org and FOAF scaffolding, cross-reference structure, citation-metadata template, and machine-readable serialisations were produced by large language models under direct human prompting.
-- **~70% human edit** — identity-fact verification, scope decisions on what enters the public entity record, cross-reference correctness, ORCID linkage validation, and final acceptance were performed by the human author.
+Corrections are recorded in Git history. A statement that a particular link, fact or file was checked applies only to the scope and version documented for that check; it is not a continuing guarantee about every repository file.
 
-The split is intentional. An entity record about a person must be authored by that person — AI scaffolding accelerates the formatting but does not substitute for human judgement on what the public identity actually is.
+## Version and provenance
 
-## Trade-offs
+A checksum or timestamp can support statements about a particular file version when the corresponding evidence is available and verified. It does not establish truth, originality, patent protection or legal compliance. Earlier manifests or archive records should not be treated as evidence for later edited text without matching the exact file version.
 
-Using AI as a drafting tool for an entity record introduces specific failure modes that the curation discipline absorbs:
-
-- **Identity inflation** — LLMs tend to add plausible-sounding affiliations or credentials; the human pass removes anything not directly verifiable.
-- **Scope creep** — LLMs tend to enrich entity records with personal-data fields; the human pass enforces a minimal, professional-only scope.
-- **Cross-reference hallucination** — any link to an external identifier (ORCID, DOI, repository URL) is verified manually against the live target before publication.
-- **Format drift between serialisations** — schema.org, FOAF, and Turtle are kept synchronised by the human pass, not by trust in the AI draft.
-
-Human curation is primary. The entity record is the author's identity claim; it cannot be delegated.
-
-## Audit Trail
-
-Every published file in this repository is anchored by:
-
-- **Multi-Hash** — SHA-256, SHA-512, SHA3-256, BLAKE3 stored in `manifests/MULTI_HASH.json`.
-- **OpenTimestamps** — `.ots` proofs in `manifests/` anchored across four independent calendar servers.
-- **DOI** — registered via Zenodo, DataCite-immutable publication date.
-
-The combination forms a defensive-publication chain for the entity record itself, in the same manner as the terminology corpora that the entity authors.
-
-## Reproducibility
-
-The repository is self-contained. An independent party can:
-
-1. Verify file integrity against `MANIFEST.sha256`.
-2. Verify timestamp against the OpenTimestamps proof.
-3. Resolve the ORCID and DOI cross-references against the live registries.
-4. Re-derive the JSON-LD and Turtle serialisations from the canonical `api/entity.json`.
-
-No proprietary tooling is required.
+This revision does not certify the availability or validity of older manifests, timestamp proofs or archive deposits.
 
 ## License
 
-This disclosure and the entity record are released under **CC BY-NC-ND 4.0** — Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International.
+The stated licence remains [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/). Sharing is permitted for noncommercial purposes subject to attribution and the other licence conditions. The licence does not permit distribution of adapted material. Exceptions and limitations under applicable law remain unaffected. This summary grants no additional rights.
 
-Note: the licence (CC BY-NC-ND 4.0) permits redistribution and adaptation with attribution. Creating derivative entity records that purport to represent the same author is nonetheless prohibited as impersonation, independent of the license.
+## Legal scope
 
----
+This notice identifies the artificial origin of content. It is not a certificate of compliance with the EU AI Act or other applicable law. The applicability of particular obligations depends on the content, use and relevant circumstances.
 
-*Disclosure version: 1.0. Maintainer: Andreas Ehstand (Independent Researcher). Contact: ehstand.schule@gmail.com.*
+Maintainer: Andreas Ehstand. Contact: ehstand.schule@gmail.com.
