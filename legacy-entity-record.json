@@ -1,0 +1,5 @@
+---
+layout: null
+permalink: /api/entity.json
+---
+{% include_relative person.jsonld %}

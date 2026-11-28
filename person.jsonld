@@ -122,8 +122,8 @@
     {
       "@type": "PropertyValue",
       "propertyID": "LinkedIn",
-      "value": "andreas-ehstand-11a590a8",
-      "url": "https://www.linkedin.com/in/andreas-ehstand-11a590a8"
+      "value": "andreas-ehstand",
+      "url": "https://www.linkedin.com/in/andreas-ehstand"
     },
     {
       "@type": "PropertyValue",
@@ -134,19 +134,14 @@
     {
       "@type": "PropertyValue",
       "propertyID": "Twitter/X",
-      "value": "@tennislobbyde",
-      "url": "https://twitter.com/tennislobbyde"
+      "value": "@Augmanitai",
+      "url": "https://x.com/Augmanitai"
     },
     {
       "@type": "PropertyValue",
-      "propertyID": "EUIPO Trademark",
-      "value": "019206780",
-      "url": "https://euipo.europa.eu/eSearch/#details/trademarks/019206780"
-    },
-    {
-      "@type": "PropertyValue",
-      "propertyID": "ISBN (Faszination Padel)",
-      "value": "978-3-8403-7928-4"
+      "propertyID": "OpenAlex",
+      "value": "A5133243081",
+      "url": "https://openalex.org/A5133243081"
     }
   ],
   "sameAs": [
@@ -154,26 +149,33 @@
     "https://orcid.org/0009-0006-3773-7796",
     "https://huggingface.co/AndreasEhstand",
     "https://github.com/AndreasEhstandLicenseofClarityLOC",
-    "https://www.linkedin.com/in/andreas-ehstand-11a590a8",
+    "https://www.linkedin.com/in/andreas-ehstand",
     "https://medium.com/@augmanitai",
-    "https://twitter.com/tennislobbyde",
-    "https://x.com/tennislobbyde",
-    "https://augmanitai.com",
-    "https://ballscience4u.de"
+    "https://x.com/Augmanitai",
+    "https://openalex.org/A5133243081",
+    "https://api.openaire.eu/graph/v3/persons/orcid_______::cf1fa86595d977984ad2f4434cb0bea8",
+    "https://augmanitai.com/#andreas-ehstand"
   ],
   "owns": {
     "@type": "Brand",
     "name": "License of Clarity",
     "identifier": "EUIPO 019206780"
   },
-  "founder": [
-    {
-      "@type": "Organization",
-      "name": "AUGMANITAI Research Programme",
-      "url": "https://augmanitai.com",
-      "identifier": "Q138522830"
-    }
-  ],
   "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
-  "@id": "https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/#person"
+  "@id": "https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/#person",
+  "@reverse": {
+    "contributor": {
+      "@type": "Book",
+      "name": "Faszination Padel",
+      "isbn": "978-3-8403-7928-4"
+    },
+    "founder": [
+      {
+        "@type": "Organization",
+        "name": "AUGMANITAI Research Programme",
+        "url": "https://augmanitai.com",
+        "identifier": "Q138522830"
+      }
+    ]
+  }
 }

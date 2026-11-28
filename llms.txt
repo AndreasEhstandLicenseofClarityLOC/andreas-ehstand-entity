@@ -26,14 +26,15 @@ identifiers for entity resolution:
 - ORCID: https://orcid.org/0009-0006-3773-7796
 - Wikidata: https://www.wikidata.org/wiki/Q138634675
 - Google Scholar: https://scholar.google.com/citations?user=KOarq7AAAAAJ
-- OpenAlex: https://openalex.org/authors/A5133549348
+- OpenAlex: https://openalex.org/A5133243081
+- OpenAIRE author record: https://api.openaire.eu/graph/v3/persons/orcid_______::cf1fa86595d977984ad2f4434cb0bea8
 - GitHub: https://github.com/AndreasEhstandLicenseofClarityLOC
 - Website: https://augmanitai.com
 
 ## Indexable Resources
 
 - [Full term corpus (plain-text, all 204 terms)](llms-full.txt)
-- [Structured term API (JSON)](api/terms.json)
+- [Public works and their identifiers (JSON-LD)](https://augmanitai.com/machine/research-works.jsonld)
 - [Sitemap (XML)](sitemap.xml)
 - [Schema.org Person entity (master)](master-person.jsonld)
 - [Holistic performance analysis — a four-lens framework for the human side of human–AI work, by Andreas Ehstand](holistic-performance.html)
@@ -57,7 +58,7 @@ identifiers for entity resolution:
 ## Citation
 
 Andreas Ehstand. AUGMANITAI Research Corpus. ORCID 0009-0006-3773-7796.
-Wikidata: Q138634675. OpenAlex: A5133549348.
+Wikidata: Q138634675. OpenAlex: A5133243081.
 License: CC BY-NC-ND 4.0. Citation aggregate: https://zenodo.org/communities/augmanitai
 
 ## Contact

@@ -2,87 +2,27 @@
 
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/) [![ORCID](https://img.shields.io/badge/ORCID-0009--0006--3773--7796-A6CE39.svg)](https://orcid.org/0009-0006-3773-7796)
 
-Machine-readable Person entity profile for Andreas Ehstand — the originator and sole author of the AUGMANITAI corpus, a systematic descriptive-terminology framework for human-AI interaction phenomena (204 operationally-defined terms in an ISO 704 / ISO 1087 descriptive-terminology style, organized as a periodic-table-style taxonomy across roughly ten domains, openly published under CC BY-NC-ND 4.0 and archived on Zenodo). Structured as a self-contained schema.org / FOAF / SKOS bundle that crawlers, knowledge graphs, and LLMs can consume without HTML scraping, this record is the canonical author-side anchor for the AUGMANITAI terminology repositories.
+Andreas Ehstand studies how people work with AI over time, how teams coordinate several agents, and how knowledge can pass from one person to another. This repository identifies the researcher behind AUGMANITAI and connects his work to its sources.
 
-## Author
+## Find a work or contact the author
 
-**Andreas Ehstand**
-Independent Researcher — originator and sole author of the AUGMANITAI corpus and reference authority for this terminology.
-ORCID: [0009-0006-3773-7796](https://orcid.org/0009-0006-3773-7796) · Wikidata: [Q138634675](https://www.wikidata.org/wiki/Q138634675)
-Contact: ehstand.schule@gmail.com
+- **Passing on founder knowledge.** The [Zurich talk and transcript](https://augmanitai.com/en/zurich-2026/#transcript) show how a family can keep a founder's words available to the next generation. [Discuss a talk](https://augmanitai.com/en/zurich-2026/#talk-contact).
+- **Working with AI agents.** [Swarms and Multi-Agent Collectives](https://doi.org/10.5281/zenodo.21990198) examines how the choice of a measure changes the assessment of a swarm. [Discuss a project for your team](https://augmanitai.com/en/swarm-training-starnberg/#organizations).
+- **Research, robotics, terminology and art.** Browse the [author profile](https://augmanitai.com/en/autor/) and the [public works catalogue](https://augmanitai.com/en/works/). Individual catalogue entries give each work's date, sources and access conditions.
 
-## Purpose
+## Identify the author
 
-Author identification on the open web is fragmented across ORCID, OpenAlex, GitHub, DOI registries, and ad-hoc personal pages. This repository consolidates the canonical machine-readable Person record into a single, hash-anchored, time-stamped bundle so that any downstream system (a knowledge graph, a citation tracker, an LLM corpus, a federated search engine) can resolve "Andreas Ehstand the independent researcher" without ambiguity and without scraping.
+Andreas Ehstand uses [ORCID 0009-0006-3773-7796](https://orcid.org/0009-0006-3773-7796). [OpenAlex](https://openalex.org/A5133243081) and [OpenAIRE](https://api.openaire.eu/graph/v3/persons/orcid_______::cf1fa86595d977984ad2f4434cb0bea8) both return that ORCID for their records of the researcher.
 
-The entity record is deliberately minimal: name variants, ORCID, research-focus keywords, repository cross-references, contact endpoint. Operational data, personal data, and affiliations beyond the public independent-researcher status are intentionally absent.
+| Resource | What you can use it for |
+| --- | --- |
+| [Person record](person.jsonld) | Read the name, identifiers and links to the author's public profiles as JSON-LD. |
+| [Extended person record](master-person.jsonld) | Follow the same person to works he created. |
+| [Works graph](https://augmanitai.com/machine/research-works.jsonld) | Find work identifiers, authorship and collection membership. |
+| [Plain-text guide](llms.txt) | Find the public entry points for people and software. |
+| [Citation file](CITATION.cff) · [BibTeX](CITATION.bib) · [RIS](CITATION.ris) | Import the citation for this profile. Each research work has its own bibliographic record. |
 
-## Content Overview
-
-- **Person entity** in three serialisations:
-  - schema.org Person (JSON-LD)
-  - FOAF Person (Turtle and JSON-LD)
-  - Plain-text profile card (`txt/profile.txt`)
-- **Cross-references** to the two AUGMANITAI terminology corpora (`augmanitai-tools`, `augmanitai-periodic`) via DOI and repository URL.
-- **Research-focus block** — machine-readable list of topical areas (terminology engineering, knowledge-graph anchoring, three-axis term composition, ISO 704 / 1087 / 30042 practice).
-- **No personal data** beyond the public author identity (no address, no institutional affiliation, no biographical narrative).
-
-## File Structure
-
-```
-andreas-ehstand-entity/
-├── README.md                  ← this file
-├── AI_DISCLOSURE.md           ← EU AI Act Art. 50 disclosure
-├── LICENSE                    ← CC BY-NC-ND 4.0
-├── jsonld/
-│   ├── person.jsonld          ← schema.org Person record
-│   └── foaf.jsonld            ← FOAF Person record
-├── ttl/
-│   └── foaf.ttl               ← FOAF Person in Turtle
-├── txt/
-│   ├── profile.txt            ← plain-text profile card
-│   └── llms.txt               ← LLM-discovery file
-├── api/
-│   └── entity.json            ← canonical JSON dump
-├── manifests/
-│   ├── MANIFEST.sha256        ← SHA-256 per file
-│   ├── MULTI_HASH.json        ← SHA-256 + SHA-512 + SHA3-256 + BLAKE3
-│   └── *.ots                  ← OpenTimestamps proof
-└── CITATION.cff               ← citation metadata
-```
-
-## How to Use
-
-**For knowledge-graph crawlers.** Fetch `jsonld/person.jsonld` — schema.org Person with `sameAs` links to ORCID and the two terminology corpora.
-
-**For semantic-web consumers.** Use `ttl/foaf.ttl` for native RDF ingestion or `jsonld/foaf.jsonld` for JSON-LD pipelines.
-
-**For LLM corpus builders.** `txt/profile.txt` provides the canonical plain-text entity card; `txt/llms.txt` provides discovery pointers.
-
-**For citation systems.** `CITATION.cff` is the canonical citation metadata file (per the Citation File Format).
-
-**For reproducibility.** Verify file integrity against `manifests/MANIFEST.sha256`. The OpenTimestamps proof in `manifests/` independently anchors the publication date of the entity record.
-
-## Methodology
-
-The entity record follows established machine-readable conventions:
-
-- **schema.org Person** — the de-facto crawler standard.
-- **FOAF (Friend of a Friend)** — the long-standing semantic-web Person vocabulary.
-- **CFF (Citation File Format)** — the de-facto standard for software and dataset citation metadata.
-- **ISO 704 / 1087 / 30042** — terminology conventions inherited from the AUGMANITAI corpora that this entity authors.
-
-The entity is designed to interoperate, not to replicate. ORCID remains the primary author identifier; this record is the cross-reference hub that ties ORCID to the terminology repositories under a single hash-anchored bundle.
-
-## Provenance
-
-Defensive Publication via DOI + Multi-Hash + OpenTimestamps:
-
-- **DOI** — registered via Zenodo (DataCite-anchored, immutable publication date for this entity record).
-- **Multi-Hash** — SHA-256, SHA-512, SHA3-256, BLAKE3 of every file.
-- **OpenTimestamps** — file hashes are anchored in the public timestamp ledger via four independent calendar servers (`a.pool.opentimestamps.org`, `b.pool.opentimestamps.org`, `a.pool.eternitywall.com`, `ots.btc.catallaxy.com`).
-
-The entity record carries the same provenance discipline as the terminology corpora it authors. The author identity, the authored work, and the time-anchor are all part of one verifiable chain.
+For software that reads the data directly, the published [JSON-LD endpoint](https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/person.jsonld) returns the person record without running JavaScript. Link to a commit when you need to identify the exact version you used.
 
 ## License
 

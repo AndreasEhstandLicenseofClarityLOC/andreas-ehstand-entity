@@ -27,8 +27,8 @@
     {
       "@type": "PropertyValue",
       "propertyID": "OpenAlex",
-      "value": "A5133549348",
-      "url": "https://openalex.org/authors/A5133549348"
+      "value": "A5133243081",
+      "url": "https://openalex.org/A5133243081"
     }
   ],
   "url": "https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/",
@@ -36,16 +36,14 @@
     "https://www.wikidata.org/wiki/Q138634675",
     "https://orcid.org/0009-0006-3773-7796",
     "https://scholar.google.com/citations?user=KOarq7AAAAAJ",
-    "https://openalex.org/authors/A5133549348",
-    "https://zenodo.org/search?q=creators.identifier%3A%220009-0006-3773-7796%22",
-    "https://zenodo.org/communities/augmanitai",
+    "https://openalex.org/A5133243081",
     "https://huggingface.co/AndreasEhstand",
     "https://github.com/AndreasEhstandLicenseofClarityLOC",
-    "https://www.linkedin.com/in/andreas-ehstand-11a590a8",
+    "https://www.linkedin.com/in/andreas-ehstand",
     "https://medium.com/@augmanitai",
-    "https://twitter.com/tennislobbyde",
-    "https://x.com/tennislobbyde",
-    "https://augmanitai.com"
+    "https://x.com/Augmanitai",
+    "https://api.openaire.eu/graph/v3/persons/orcid_______::cf1fa86595d977984ad2f4434cb0bea8",
+    "https://augmanitai.com/#andreas-ehstand"
   ],
   "jobTitle": "Independent Researcher",
   "description": "Andreas Ehstand is an independent researcher and the originator and sole author of the AUGMANITAI corpus, a systematic descriptive-terminology framework for human-AI interaction phenomena: 204 operationally-defined terms written in an ISO 704 / ISO 1087 descriptive-terminology style and organized as a periodic-table-style taxonomy across roughly ten domains, openly published under CC BY-NC-ND 4.0 and archived on Zenodo. The corpus is a reference vocabulary that names and operationally defines interaction phenomena, and it cross-walks to established constructs it relates to, including flow (Csikszentmihalyi), tacit knowledge (Polanyi), technology acceptance (UTAUT / Davis), cognitive load (NASA-TLX, Sweller), and experience sampling. The methodology draws on phenomenological traditions (Husserl), social systems theory (Luhmann), and philosophy of language (Wittgenstein) to ground human-AI interaction research in a rigorous conceptual framework. Background: over a decade of high-performance sport coaching in tennis and padel; alumnus of the University of Bayreuth and TU Dortmund; First State Examination (Bayerisches Staatsexamen, 2009); holder of a Bavarian university-teaching certificate (FBZHL) and of the EU trademark License of Clarity (EUIPO 019206780). ORCID 0009-0006-3773-7796; Wikidata Q138634675.",
@@ -70,40 +68,24 @@
     "High-performance sport coaching (tennis and padel)",
     "Holistic performance analysis (four-lens framework: observable, decomposable, measurable, controllable) applied to human-AI collaboration"
   ],
-  "creator": [
-    {
-      "@type": "Dataset",
-      "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#dataset",
-      "name": "AUGMANITAI Compendium Wave 1 — 104 Descriptive Terms",
-      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/"
-    },
-    {
-      "@type": "Dataset",
-      "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#dataset",
-      "name": "AUGMANITAI Periodic Table — 100 Phenomena (Wave 2)",
-      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/"
-    },
-    {
-      "@type": "Article",
-      "@id": "https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/holistic-performance.html",
-      "name": "Holistic Performance Analysis — a four-lens framework (observable, decomposable, measurable, controllable) for the human side of human–AI collaboration",
-      "identifier": {"@type": "PropertyValue", "propertyID": "doi", "value": "10.5281/zenodo.20613914"}, "url": "https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/holistic-performance.html",
-      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
-      "inLanguage": "en"
-    }
-  ],
   "alumniOf": [
     {
       "@type": "EducationalOrganization",
       "name": "Universität Bayreuth",
       "url": "https://www.uni-bayreuth.de/",
-      "address": { "@type": "PostalAddress", "addressCountry": "DE" }
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "DE"
+      }
     },
     {
       "@type": "EducationalOrganization",
       "name": "Technische Universität Dortmund",
       "url": "https://www.tu-dortmund.de/",
-      "address": { "@type": "PostalAddress", "addressCountry": "DE" }
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "DE"
+      }
     }
   ],
   "memberOf": [
@@ -141,7 +123,10 @@
       "recognizedBy": {
         "@type": "Organization",
         "name": "Freistaat Bayern",
-        "address": { "@type": "PostalAddress", "addressCountry": "DE" }
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "DE"
+        }
       }
     },
     {
@@ -163,5 +148,34 @@
       "identifier": "EUIPO 019206780",
       "credentialCategory": "Trademark"
     }
-  ]
+  ],
+  "@reverse": {
+    "creator": [
+      {
+        "@type": "Dataset",
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#dataset",
+        "name": "AUGMANITAI Compendium Wave 1 — 104 Descriptive Terms",
+        "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/"
+      },
+      {
+        "@type": "Dataset",
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#dataset",
+        "name": "AUGMANITAI Periodic Table — 100 Phenomena (Wave 2)",
+        "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/"
+      },
+      {
+        "@type": "Article",
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/holistic-performance.html",
+        "name": "Holistic Performance Analysis — a four-lens framework (observable, decomposable, measurable, controllable) for the human side of human–AI collaboration",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "doi",
+          "value": "10.5281/zenodo.20613914"
+        },
+        "url": "https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/holistic-performance.html",
+        "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "inLanguage": "en"
+      }
+    ]
+  }
 }

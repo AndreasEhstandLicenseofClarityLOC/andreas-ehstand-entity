@@ -1,0 +1,5 @@
+---
+layout: null
+permalink: /jsonld/person.jsonld
+---
+{% include_relative person.jsonld %}
